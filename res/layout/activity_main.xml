@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.iit.infoiitbhu.MainActivity"
+    >
+
+    
+    <TextView
+        android:textSize="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='The admin of the app is'
+        android:layout_gravity="center"
+        />
+    
+    <TextView
+        android:textSize="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ref"
+        android:layout_gravity="center"
+        
+        />
+    <TextView
+        android:textSize="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your total is 0"
+        android:layout_gravity="center"
+        android:id="@+id/tv"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Add one"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:id="@+id/bt1"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Sub one"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:id="@+id/bt2"
+        />
+
+    <EditText
+        android:id="@+id/edT1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:hint="User Name" >
+
+        
+    </EditText>
+
+    <EditText
+        android:id="@+id/edT2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_gravity="center" 
+        android:hint="Password"/>
+
+    <Button
+        android:id="@+id/btsave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save User and PassWord" 
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        />"
+
+</LinearLayout>
